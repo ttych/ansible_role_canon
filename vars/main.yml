@@ -1,0 +1,5 @@
+---
+canon_mg7100_cnijfilter_deb: http://gdlp01.c-wss.com/gds/2/0100005512/01/cnijfilter-mg7100series-4.00-1-deb.tar.gz
+canon_mg7100_cnijfilter_deb_checksum: sha256:08d40e954d04b17a116643aa446a8ac068619f6b6b69729a12c6685ac289063c
+canon_mg7100_scangearmp_deb: http://gdlp01.c-wss.com/gds/9/0100005529/01/scangearmp-mg7100series-2.20-1-deb.tar.gz
+canon_mg7100_scangearmp_deb_checksum: sha256:4d51c6f0925029a6bb477821a490b2aa008b321b9bc08b3a4e8467cf1032fcf4
