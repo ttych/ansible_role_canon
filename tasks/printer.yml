@@ -1,0 +1,18 @@
+---
+
+- block:
+
+    - name: install cups
+      package:
+        name: "{{ canon_printer_cups_packages }}"
+        state: present
+      register: t_canon_printer_cups_install
+
+    - name: service cups
+      service:
+        name: "{{ canon_printer_cups_service }}"
+        enabled: yes
+        state: started
+      register: t_canon_printer_cups_service
+
+  when: canon_want_printer

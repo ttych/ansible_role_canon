@@ -1,3 +1,8 @@
 ---
-- include: "{{ item }}.yml"
-  with_items: "{{ canon_models }}"
+
+- block:
+    - include_tasks: context.yml
+
+    - include_tasks: printer.yml
+
+    - include_tasks: ts6350.yml

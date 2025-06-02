@@ -1,0 +1,12 @@
+---
+
+canon_dist_dir: /opt/canon
+
+canon_want_printer: "{{ want_canon_ts6350 }}"
+canon_printer_cups_packages:
+  - cups
+  - libcupsimage2
+canon_printer_cups_service: cups
+
+
+root_group: root
